@@ -66,8 +66,8 @@ processResources {
 ext.emoteFontId = 'edenmod:emotes'
 ext.emoteCodepointBase = 0xF000
 ext.emoteDirs = ['catplush']
-ext.emoteAscent = 15
-ext.emoteHeight = 18
+ext.emoteAscent = 8
+ext.emoteHeight = 10
 
 tasks.register('generateEmoteAssets') {
     def assetsDir = file('resources/assets/edenmod')
